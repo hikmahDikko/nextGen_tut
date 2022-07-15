@@ -1,3 +1,5 @@
+//Addition of two numbers
+
 function addNumber(a, b) {
     console.log(a + b);
 }
