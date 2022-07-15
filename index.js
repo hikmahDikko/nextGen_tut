@@ -1,13 +1,10 @@
-//boolean Variable Example
-let isNotSick = false;
-//let isNotSick = false;
+//How to create an Array
 
-function hikmatStatus(){
-    if(isNotSick){
-        console.log("Hikmat is not sick.");
-    }else{
-        console.log("Hikmat is sick.");
-    }
-}
+let hikmahDetails = ["Dikko", "Hikmat", "Yetunde", 18, 0903456];
 
-hikmatStatus();
+console.log(hikmahDetails);
+console.log(hikmahDetails[0]);
+console.log(hikmahDetails[1]);
+console.log(hikmahDetails[2]);
+console.log(hikmahDetails[3]);
+console.log(hikmahDetails[4]);
