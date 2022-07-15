@@ -1,4 +1,4 @@
 # nextGen_tut
 Class practice
 
-Adddition of two numbers using functions
+Addition of two numbers using functions
