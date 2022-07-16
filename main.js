@@ -4,11 +4,11 @@ let firstNum = 5;
 let lastNum = 7;
 console.log(firstNum);
 
-function addNumber(){
-let firstNum = 18;
-console.log(firstNum);
-let result = firstNum + lastNum;
-console.log(result);
+function addNumber() {
+    let firstNum = 18;
+    console.log(firstNum);
+    let result = firstNum + lastNum;
+    console.log(result);
 }
 
 addNumber();
@@ -21,12 +21,12 @@ console.log(myName);
 let isNotSick = true;
 //let isNotSick = false;
 
-function hikmatStatus(){
-if(isNotSick){
-    console.log("Hikmat is not sick.");
-}else{
-    console.log("Hikmat is sick.");
-}
+function hikmatStatus() {
+    if (isNotSick) {
+        console.log("Hikmat is not sick.");
+    } else {
+        console.log("Hikmat is sick.");
+    }
 }
 
 hikmatStatus();
@@ -36,13 +36,13 @@ hikmatStatus();
 let age = 21;
 let message = '';
 if (age < 3) {
-message = 'Hi, baby!';
+    message = 'Hi, baby!';
 } else if (age < 18) {
-message = 'Hello!';
+    message = 'Hello!';
 } else if (age < 100) {
-message = 'Greetings!';
+    message = 'Greetings!';
 } else {
-message = 'What an unusual age!';
+    message = 'What an unusual age!';
 }
 console.log(message);
 
@@ -50,9 +50,9 @@ console.log(message);
 let age2 = 10000;
 let message2 = console.log(
     age2 < 3 ? "Hi, baby" :
-    age2 < 18 ? "Hello" :
-    age2 < 100 ? "Greetimgs" :
-    "What an unusual age!"
+        age2 < 18 ? "Hello" :
+            age2 < 100 ? "Greetimgs" :
+                "What an unusual age!"
 );
 
 //Null coalescing operator ??
@@ -65,10 +65,10 @@ let n = 10;
 nextPrime:
 for (let i = 2; i <= n; i++) {
 
-    for (let j = 2; j < i; j++) { 
-        if (i % j == 0) 
+    for (let j = 2; j < i; j++) {
+        if (i % j == 0)
             continue nextPrime;
     }
 
-    console.log( i ); // a prime
+    console.log(i); // a prime
 }
