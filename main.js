@@ -30,3 +30,27 @@ function hikmatStatus(){
 }
 
 hikmatStatus();
+
+
+//Condition statements
+let age = 21;
+let message = '';
+if (age < 3) {
+    message = 'Hi, baby!';
+  } else if (age < 18) {
+    message = 'Hello!';
+  } else if (age < 100) {
+    message = 'Greetings!';
+  } else {
+    message = 'What an unusual age!';
+  }
+  console.log(message);
+
+  //Alternatively using ? comparison
+  let age2 = 10000;
+  let message2 = console.log(
+      age2 < 3 ? "Hi, baby" :
+      age2 < 18 ? "Hello" :
+      age2 < 100 ? "Greetimgs" :
+      "What an unusual age!"
+  );
