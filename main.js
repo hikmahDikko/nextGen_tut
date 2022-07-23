@@ -71,3 +71,16 @@ for (let i = 2; i <= n; i++) { // for each i...
 
     console.log(i); // a prime
 }
+
+function power(a, b){
+    let num = Math.pow(a, b);
+    return num;
+}
+
+let ans = power(2, 3);
+console.log(ans);
+
+//Alternatively
+let result = u = 2 ? v = 3 ? Math.pow(2, 3) : res : null ;
+
+console.log(result);
