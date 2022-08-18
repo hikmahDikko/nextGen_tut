@@ -72,6 +72,7 @@ for (let i = 2; i <= n; i++) { // for each i...
     console.log(i); // a prime
 }
 
+//power
 function power(a, b){
     let num = Math.pow(a, b);
     return num;
